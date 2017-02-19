@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Web", "Web\Web.xproj", "{EED8B54A-D297-48E3-951A-7EF82C24E8B2}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ecosters.Web", "Web\Ecosters.Web.xproj", "{EED8B54A-D297-48E3-951A-7EF82C24E8B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Site", "Site", "{E26EC3B9-F2B5-49C3-9A36-2E338410D49F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{AEDD8040-6E07-46AF-8881-79C8CB9E8567}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6F84C79C-C903-4D3B-B73B-3252DE7B895C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EED8B54A-D297-48E3-951A-7EF82C24E8B2} = {E26EC3B9-F2B5-49C3-9A36-2E338410D49F}
 	EndGlobalSection
 EndGlobal

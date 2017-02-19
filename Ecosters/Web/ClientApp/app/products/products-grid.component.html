@@ -1,1 +1,385 @@
-﻿<h2>Product Grid - Show all products</h2>
+﻿<div class="main-content">
+    <div class="container">
+        <div class="row" style="margin-top: 5px;">
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="sidebar sidebar-left sidebar-product">
+                    <div class="widget widget-category">
+                        <h2 class="widget-title sub-title">Filters</h2>
+                        <h3><a href="#">Furniter</a></h3>
+                        <ul>
+                            <li><a href="#">Kitchen LightingBathroom </a></li>
+                            <li><a href="#">LightingDining Room </a></li>
+                            <li><a href="#">LightingBedroom </a></li>
+                        </ul>
+                        <h3><a href="#">home improvement</a></h3>
+                        <ul>
+                            <li><a href="#">Bathroom Fixtures</a></li>
+                            <li><a href="#">Flooring</a></li>
+                            <li><a href="#">Large Appliances</a></li>
+                            <li><a href="#">Heating & Cooling</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget widget-filter-price">
+                        <h2 class="widget-title sub-title">FILTER BY PRICE</h2>
+                        <div id="slider-range"></div>
+                        <div class="info-price-filter">
+                            <button class="btn-link-default">Filter</button>
+                            <p>
+                                <label for="amount">Price:</label>
+                                <input type="text" id="amount" readonly />
+                            </p>
+                        </div>
+                    </div>
+                    <div class="widget widget-attribute widget-default">
+                        <h2 class="widget-title sub-title">shop by color</h2>
+                        <ul>
+                            <li><a href="#">Blue <span>(5)</span></a></li>
+                            <li><a href="#">Red <span>(9)</span></a></li>
+                            <li><a href="#">Yellow <span>(3)</span></a></li>
+                            <li><a href="#">Cyan <span>(0)</span></a></li>
+                            <li><a href="#">Black <span>(5)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="widget widget-attribute widget-default">
+                        <h2 class="widget-title sub-title">shop by size</h2>
+                        <ul>
+                            <li><a href="#">S <span>(5)</span></a></li>
+                            <li><a href="#">M <span>(9)</span></a></li>
+                            <li><a href="#">L <span>(3)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="widget widget-top-seller">
+                        <h2 class="widget-title sub-title">top sellers</h2>
+                        <ul>
+                            <li class="clearfix">
+                                <div class="product-thumb">
+                                    <a href="#"><img class="img-responsive" src="images/photos/png/1.png" alt="" /></a>
+                                </div>
+                                <h3 class="title-product"><a href="#">Uptown 6-Light Chandelier</a></h3>
+                                <div class="info-price">
+                                    <span>$12.49</span>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="product-thumb">
+                                    <a href="#"><img class="img-responsive" src="images/photos/png/2.png" alt="" /></a>
+                                </div>
+                                <h3 class="title-product"><a href="#">Light Tube Wall Sconce</a></h3>
+                                <div class="info-price">
+                                    <span>$6.99</span>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="product-thumb">
+                                    <a href="#"><img class="img-responsive" src="images/photos/png/3.png" alt="" /></a>
+                                </div>
+                                <h3 class="title-product"><a href="#">Light Tube Wall Sconce</a></h3>
+                                <div class="info-price">
+                                    <span>$80.00</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Sidebar -->
+            </div>
+            <div class="col-md-9 col-sm-8 col-xs-12">
+                <div class="product-grid has-sidebar">
+                    <div class="sort-pagi-bar top clearfix">
+                        <ul class="product-pagi-nav pull-right list-inline">
+                            <li><a href="#" class="active">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#" class="next"><span class="lnr lnr-chevron-right"></span></a></li>
+                        </ul>
+                        <div class="product-filter pull-right">
+                            <select name="orderby" class="orderby">
+                                <option>Sort By</option>
+                                <option>Name Asc</option>
+                                <option>Price Low</option>
+                                <option>Price Height</option>
+                            </select>
+                        </div>
+                    </div>
+                    <ul class="list-product row list-unstyled">
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/1.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Light Tube Wall Sconce</a></h3>
+                                    <div class="info-price">
+                                        <span>$45.00 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/2.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Light Tube Wall Sconce</a></h3>
+                                    <div class="info-price">
+                                        <span>$78.00</span>
+                                        <del>$97.80</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/3.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Light Tube Wall Sconce</a></h3>
+                                    <div class="info-price">
+                                        <span>$45.00 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/4.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Osum Phane Quiks</a></h3>
+                                    <div class="info-price">
+                                        <span>$78.00</span>
+                                        <del>$97.80</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/5.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Light Livingroom</a></h3>
+                                    <div class="info-price">
+                                        <span>$80.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/6.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Luphen Caunoiteng kug</a></h3>
+                                    <div class="info-price">
+                                        <span>$50.00 </span>
+                                        <del>$59.80</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/7.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Xopgac Hencin Kooper</a></h3>
+                                    <div class="info-price">
+                                        <span>$30.00 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/8.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Cooc Huyinh Phale</a></h3>
+                                    <div class="info-price">
+                                        <span>$17.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/9.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Light Tube Wall Sconce</a></h3>
+                                    <div class="info-price">
+                                        <span>$45.00 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/10.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Light Tube Wall Sconce</a></h3>
+                                    <div class="info-price">
+                                        <span>$78.00</span>
+                                        <del>$97.80</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/11.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Light Tube Wall Sconce</a></h3>
+                                    <div class="info-price">
+                                        <span>$45.00 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="item-product">
+                                <div class="item-product-thumb">
+                                    <a href="#" class="product-thumb-link"><img class="img-responsive" src="images/photos/png/12.png" alt="" /></a>
+                                    <div class="product-extra-mask">
+                                        <div class="product-extra-link">
+                                            <a href="#" class="product-compare"><span class="lnr lnr-sync"></span></a>
+                                            <a href="#" class="product-add-cart"><span class="lnr lnr-cart"></span></a>
+                                            <a href="#" class="product-wishlist"><span class="lnr lnr-heart"></span></a>
+                                            <a href="#" class="product-quick-view"><span class="lnr lnr-magnifier"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product-info">
+                                    <h3 class="title-product"><a href="#">Light Livingroom</a></h3>
+                                    <div class="info-price">
+                                        <span>$80.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="sort-pagi-bar bottom clearfix">
+                        <ul class="product-pagi-nav pull-right list-inline">
+                            <li><a href="#" class="active">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#" class="next"><span class="lnr lnr-chevron-right"></span></a></li>
+                        </ul>
+                        <div class="product-filter pull-right">
+                            <select name="orderby" class="orderby">
+                                <option>Sort By</option>
+                                <option>Name Asc</option>
+                                <option>Price Low</option>
+                                <option>Price Height</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Grid Product -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Grid Product -->
+<!-- End Content -->

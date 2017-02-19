@@ -1,4 +1,9 @@
 {
+  "title": "Ecosters.Web",
+  "version": "1.0.0-0",
+  "copyright": "Ecosters@2017",
+  "description": "Project containing Web infrastructure including UI and Web API",
+  "language": "en",
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.1",

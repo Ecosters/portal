@@ -8,7 +8,7 @@
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
     <ProjectGuid>eed8b54a-d297-48e3-951a-7ef82c24e8b2</ProjectGuid>
-    <RootNamespace>Web</RootNamespace>
+    <RootNamespace>Ecosters.Web</RootNamespace>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup>
